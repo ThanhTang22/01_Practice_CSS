@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+}
+.marker{
+    width: 500px;
+    height: 25px;
+    
+    margin: 10px auto;
+}
+
+.red{
+    background: linear-gradient(#060047, #B3005E, #E90064, #FF5F9E);
+    box-shadow: 0 0 20px 0 black;
+}
+.green{
+    background: linear-gradient(
+        rgba(87, 197, 182, 0.4),
+        rgba(21, 152, 149, 0.6),
+        rgba(26, 95, 122, 0.8),
+        rgb(0, 43, 91)
+        );
+        box-shadow: 0 0 20px 0 #000000;
+}
+.blue{
+    background: linear-gradient(
+        hsl(186, 15%, 52%),
+        hsl(198, 39%, 50%),
+        hsl(220, 47%, 38%),
+        hsl(249, 89%, 35%)
+        );
+        box-shadow: 0 0 20px 0 #000;
+    
+}
+
+.cap{
+    width: 50%;
+    height: 100%;
+}
+
+
+.sleeve{
+    background-color: rgba(255, 255, 255, 0.3);
+
+    width: 30%;
+    height: 100%;
+    border-left: 10px double black;
+
+}
+
+.cap, .sleeve{
+    display: inline-block;
+}
