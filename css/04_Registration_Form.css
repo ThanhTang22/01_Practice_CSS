@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* width: 80%;
+    margin: 30px auto;
+
+    font-family: Tahoma;
+    background-color: black;
+    color: blue; */
+
+    width: 100%;
+    height: 100vh;
+
+    font-family: Tahoma;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+
+}
+
+
+/* header{
+    text-align: center;
+    padding: 20px;
+} */
+h1, p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/* hr{
+    border-bottom: 3px solid #000;
+} */
+
+/* FORM */
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset{
+    padding: 15px;
+    margin: 10px; 
+
+    border: none;
+    border-bottom: 3px solid #000;
+}
+fieldset:last-of-type{
+    border-bottom: none;
+}
+/* label, input, textarea, select, #uplPirture{
+    display: inline-block;
+    width: 100%;
+    
+    margin-top: 2px;
+    margin-bottom: 2px;
+} */
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select{
+    width: 100%;
+    min-height: 2em;
+
+    margin: 10px 0 0 0;
+    /* margin-top: 10px; */
+}
+
+input,
+textarea{
+    background-color: #0a0a23;
+    color: #fff;
+    border: 1px solid #0a0a23;
+}
+/* #uplPicture{
+    background-color: #fff;
+    border: 1px solid black;
+} */
+input[type="file"]{
+    padding: 1px 2px;
+}
+
+
+.inline{
+    width: unset;
+
+    margin: 0 0.5rem 0 0;
+    vertical-align: middle;
+}
+
+/* Submit */
+
+/* button{
+    margin-left: 30%;
+
+    width: 40%;
+    height: 50px;
+}  */
+button[type="submit"]{
+    display: block;
+    margin: 1em auto;
+
+    width: 60%;
+    min-width: 300px;
+    height: 2em;
+    background-color: #3b3b4f;
+    color: #fff;
+}
+

@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+.marker{
+    width: 600px;
+    height: 100px;
+
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+.red{
+    background: linear-gradient(
+        red, orange, pink, black
+    );
+    box-shadow: 0 0 10px 2px red;
+}
+
+.blue{
+    background: linear-gradient(
+        red, orange, pink, black
+    );
+    box-shadow: 0 0 10px 2px red;
+}
+.green{
+    background: linear-gradient(
+        red, orange, pink, black
+    );
+    box-shadow: 0 0 10px 2px red;
+}
+
+.right, .left{
+    display: inline-block;
+
+}
+
+.left{
+    width: 50%;
+    height: 100px;
+    
+    background-color: rgba(108, 54, 109, 0.1);
+}
+.right{
+    width: 30%;
+    height: 100px;
+
+    background-color: rgba(108, 54, 109, 0.3);
+    border-left: 10px double brown;
+}
