@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sed vero aliquid asperiores quis blanditiis adipisci rem necessitatibus, ducimus illo recusandae itaque soluta hic sequi nemo facere voluptate nisi eveniet?</p>
+    <form action="http://" method="get" id="survey-form">
+        <fieldset>
+            <label for="name-label">
+                Name:
+                <input type="text" name="name" id="name-label" 
+                placeholder="Leo Messi" required>
+            </label>
+            <br>
+            <label for="email-label">
+                Email:
+                <input type="email" name="email" id="email-label" 
+                placeholder="messi10@gmail.com" required>
+            </label>
+            <br>
+            <label for="number-label">
+                Choose Number:
+                <input type="number" name="number" id="number-label" pattern="[^\w]" 
+                placeholder="01-999" min="1" max="999" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="selDropDown">
+                How did you hear about us?
+                <select name="" id="selDropDown">
+                    <option value="">(select one)</option>
+                    <option value="1">News</option>
+                    <option value="2">Youtube Channel</option>
+                    <option value="3">Forum</option>
+                    <option value="4">Other</option>
+                </select>
+            </label>
+            <br>
+            <label for="radMale">
+                <input type="radio" name="sex-type" id="radMale" checked>
+                Male
+            </label> 
+            <br>
+            <label for="radFemale">
+                <input type="radio" name="sex-type" id="radFemale">
+                Female
+            </label> 
+            <br>
+            <label for="radOther">
+                <input type="radio" name="sex-type" id="radOther">
+                Other
+            </label>
+            <br> 
+            <label for="chkAccept">
+                <input type="checkbox" name="accept" id="chkAccept" value="Accpet">
+                I am accept answer.
+            </label>
+            <br>
+            <label for="txtBioprophy">
+                Evaluate:
+                <br>
+                <textarea name="bioprophy" id="txtBioprophy" cols="30" rows="3"
+                placeholder="How do you think?"></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" value="Submit" id="btnSubmit">
+    </form>
+</body>
+</html>
