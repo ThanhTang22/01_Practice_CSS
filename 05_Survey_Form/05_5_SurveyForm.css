@@ -1,0 +1,158 @@
+/* font-family: Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --color-white: #f3f4f5;
+    --color-darkblue: rgb(27, 27, 50);
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4;
+
+    color: var(--color-white);
+}
+body::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-darkblue);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-image: linear-gradient(
+        120deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+        ),
+        url(./img/survey-form-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    z-index: -1;
+}
+
+.container{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+
+}
+@media (min-width:575px){
+    .container{
+        max-width: 520px;
+    }
+}
+@media (min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+/* pattern */
+h1{
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+label{
+    display: flex;
+    align-items: center;
+
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+input,
+select,
+textarea,
+button{
+    padding: 0.4rem 0.6rem;
+    /* margin-bottom: 1.5rem; */
+    font-size: 1.2rem;
+}
+
+/* header */
+header{
+    margin: 2rem auto 1rem;
+    text-align: center;
+}
+#description{
+    font-style: italic;
+    text-shadow: 1px 1px 1px #000;
+}
+
+/* form */
+form{
+    width: 100%;
+    background-color: var(--color-darkblue-alpha);
+    border: 1px solid var(--color-darkblue);
+    border-radius: 0.5rem;
+
+    padding: 1rem;
+}
+.form-group{
+    margin: 0.5rem auto 1.5rem;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: 2.3rem;
+    border: 1px solid var(--color-darkblue-alpha);
+    border-radius: 0.4rem;
+    
+    /* margin-bottom: 0.5rem; */
+}
+
+.clue{
+    margin-left: 0.3rem;
+    font-size: 1rem;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.input-checkbox,
+.input-radio{
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+
+    margin: 0.5rem 1rem 0.5rem 0;
+}
+
+.input-textarea{
+    width: 100%;
+    min-height: 120px;
+    padding: 0.5rem;
+    resize: vertical;
+}
+.btn-submit{
+    display: block;
+    width: 100%;
+    /* min-height: 3rem; */
+    background-color: var(--color-green);
+    border: 1px solid var(--color-darkblue-alpha);
+    border-radius: 0.4rem;
+    color: inherit;
+
+    padding: 0.7rem;
+
+    cursor: pointer;
+}
