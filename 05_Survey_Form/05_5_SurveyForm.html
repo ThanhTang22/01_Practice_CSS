@@ -6,54 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="./05_2_SurveyForm.css ">
+    <link rel="stylesheet" href="./05_5_SurveyForm.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1 class="text-center">freeCodeCamp Survey Form</h1>
-            <p id="description" class="text-center">Thank you for taking the time to help us improve the platform</p>
+            <h1 class="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
         </header>
-        <form action="http://" method="get" id="survey-form">
+        <form action="//http:freecodecamp.org" method="get">
             <div class="form-group">
                 <label for="txtName">Name</label>
-                <input type="text" 
-                    name="name" 
-                    id="txtName"
-                    class="form-control"
-                    placeholder="Enter your name"
-                    required>
+                <input type="text"
+                     id="txtName"
+                     class="form-control"
+                     placeholder="Enter your name"
+                     required>
             </div>
             <div class="form-group">
-            <label for="txtEmail">Email</label>
-                <input type="text" 
-                    name="email" 
-                    id="txtEmail"
-                    class="form-control"
-                    placeholder="Enter your Email"
-                    required>
+                <label for="txtEmail">Email</label>
+                <input type="text"
+                     id="txtEmail"
+                     class="form-control"
+                     placeholder="Enter your Email"
+                     required>
             </div>
             <div class="form-group">
                 <label for="numAge">
-                    Age <span class="clue">(optional)</span>
+                    Age 
+                    <span class="clue">(option)</span>
                 </label>
-                <input type="text" 
-                    name="age" 
-                    id="numAge"
-                    class="form-control"
-                    placeholder="Age"
-                    min="10"
-                    max="120"
-                    required>
+                <input type="number"
+                     id="numAge"
+                     class="form-control"
+                     placeholder="Age"
+                     min="10"
+                     max="100"
+                     required>
             </div>
             <div class="form-group">
                 <p>Which option best describes your current role?</p>
-                <select name="role" id="ddnRole" class="form-control" required>
-                    <option value disabled selected>Select current role</option>
+                <select name="selectRole" id="ddnRole" class="form-control">
+                    <option value selected disabled>Select current role</option>
                     <option value="student">Student</option>
-                    <option value="full-time-learn">Full Time Learner</option>
                     <option value="full-time-job">Full Time Job</option>
-                    <option value="prefer-no-to-say">Prefer no to say</option>
+                    <option value="full-time-learn">Full Time Learn</option>
+                    <option value="prefer-not-to-say">Prefer Not To Say</option>
                     <option value="other">Other</option>
                 </select>
             </div>
@@ -61,31 +59,31 @@
                 <p>Would you recommend freeCodeCamp to a friend?</p>
                 <label for="radDefinitely">
                     <input type="radio" 
-                    name="recommmend" 
-                    id="radDefinitely"
-                    class="input-radio"
-                    checked>
+                        name="radRecommend" 
+                        id="radDefinitely"
+                        class="input-radio"
+                        checked>
                     Definitely
                 </label>
                 <label for="radMaybe">
                     <input type="radio" 
-                    name="recommmend" 
-                    id="radMaybe"
-                    class="input-radio">
+                        name="radRecommend" 
+                        id="radMaybe"
+                        class="input-radio">
                     Maybe
                 </label>
                 <label for="radNotSure">
                     <input type="radio" 
-                    name="recommmend" 
-                    id="radMaybe"
-                    class="input-radio">
+                        name="radRecommend" 
+                        id="radNotSure"
+                        class="input-radio">
                     Not sure
                 </label>
             </div>
             <div class="form-group">
                 <p>What is your favorite feature of freeCodeCamp?</p>
-                <select name="most-like" id="ddnMostLike" class="form-control" required>
-                    <option value selected disabled>Selec an option</option>
+                <select id="ddnMostLike" class="form-control">
+                    <option value selected disabled>Select an optioin</option>
                     <option value="challenges">Challenges</option>
                     <option value="projects">Projects</option>
                     <option value="community">Community</option>
@@ -99,109 +97,93 @@
                 </p>
                 <label for="chkFront-end">
                     <input type="checkbox" 
-                        name="prefer" 
+                        name="chkPrefer" 
                         id="chkFront-end"
-                        value="front-end-projects"
                         class="input-checkbox">
                     Front-end Projects
                 </label>
                 <label for="chkBack-end">
                     <input type="checkbox" 
-                        name="prefer" 
+                        name="chkPrefer" 
                         id="chkBack-end"
-                        value="back-end-projects"
                         class="input-checkbox">
                     Back-end Projects
                 </label>
                 <label for="chkData">
                     <input type="checkbox" 
-                        name="prefer" 
+                        name="chkPrefer" 
                         id="chkData"
-                        value="data-visualization"
                         class="input-checkbox">
                     Data Visualization
                 </label>
                 <label for="chkChallenges">
                     <input type="checkbox" 
-                        name="prefer" 
+                        name="chkPrefer" 
                         id="chkChallenges"
-                        value="challenges"
                         class="input-checkbox">
                     Challenges
                 </label>
                 <label for="chkOpenSource">
                     <input type="checkbox" 
-                        name="prefer" 
+                        name="chkPrefer" 
                         id="chkOpenSource"
-                        value="open-source-commnmunity"
                         class="input-checkbox">
                     Open Source Community
                 </label>
                 <label for="chkGitter">
                     <input type="checkbox" 
-                        name="prefer" 
+                        name="chkPrefer" 
                         id="chkGitter"
-                        value="giiter-help-rooms"
                         class="input-checkbox">
                     Gitter help rooms
                 </label>
                 <label for="chkVideos">
                     <input type="checkbox" 
-                        name="prefer" 
+                        name="chkPrefer" 
                         id="chkVideos"
-                        value="Videos"
                         class="input-checkbox">
                     Videos
                 </label>
                 <label for="chkCityMeetups">
                     <input type="checkbox" 
-                        name="prefer" 
+                        name="chkPrefer" 
                         id="chkCityMeetups"
-                        value="city-meetups"
                         class="input-checkbox">
                     City Meetups
                 </label>
                 <label for="chkWiki">
                     <input type="checkbox" 
-                        name="prefer" 
+                        name="chkPrefer" 
                         id="chkWiki"
-                        value="wiki"
                         class="input-checkbox">
                     Wiki
                 </label>
                 <label for="chkForum">
                     <input type="checkbox" 
-                        name="prefer" 
+                        name="chkPrefer" 
                         id="chkForum"
-                        value="forum"
                         class="input-checkbox">
                     Forum
                 </label>
                 <label for="chkAdditional">
                     <input type="checkbox" 
-                        name="prefer" 
+                        name="chkPrefer" 
                         id="chkAdditional"
-                        value="additional-courses"
                         class="input-checkbox">
                     Additional Courses
                 </label>
             </div>
             <div class="form-group">
-                <p>Any comments or suggeestion?</p>
-                <textarea name="comment" 
-                    id="txtComment" 
+                <p>Any comments or suggestion?</p>
+                <textarea 
+                    id="txtComment"
+                    class="input-textarea" 
                     cols="30" 
                     rows="3"
-                    class="input-textarea"
-                    placeholder="Enter your comment here..."
-                    ></textarea>
+                    placeholder="Enter your comment here..."></textarea>
             </div>
             <div class="form-group">
-                <button type="submit" 
-                    id="btnSubmit" 
-                    class="btn-submit">
-                    Submit
-                </button>
+                <button type="submit" class="btn-submit">Submit</button>
             </div>
         </form>
     </div>

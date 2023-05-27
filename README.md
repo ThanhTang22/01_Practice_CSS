@@ -40,3 +40,16 @@ For this project, you will build a survey form to collect data form your users.
 >
 > - HTML: [Link HTML SurveyForm](./05_Survey_Form/05_1_SurveyForm.html)
 > - CSS: [Link CSS SurveyForm](./05_Survey_Form/05_1_SurveyForm.css)
+
+
+## 06 Box Model
+
+Every HTML element is its own box – with its own spacing and a border. This is called the Box Model.
+
+In this course, you'll use CSS and the Box Model to create your own Rothko-style rectangular art pieces.
+
+> Fundamental freeCodeCamp: [Sources web](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-the-css-box-model-by-building-a-rothko-painting/step-45)
+> My Practice Box Model: [All File](./06_Box-model/)[All File](./06_Box-model/)
+>
+> - HTML: [Link HTML Box Model](./06_Box-model/06_Box-model.html)
+> - CSS: [Link CSS Box Model](./06_Box-model/06_Box-model.css)
