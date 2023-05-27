@@ -10,8 +10,7 @@ In this course, you'll learn the most common HTML tags by building your own cat 
 
 ## 02 Learn Basic CSS by Building a Cafe Menu
 
-CSS tells the browser how to display your webpage. You can use CSS to set the color, font, size, and other aspects of HTML elements.,In this course, you'll learn CSS by designing a menu page for a cafe webpage.
-<<<<<<< HEAD
+CSS tells the browser how to display your webpage. You can use CSS to set the color, font, size, and other aspects of HTML elements.,In this course, you'll learn CSS by designing a menu page for a cafe webpage
 
 ## 03 Learn Css Color by Building a Set of Colored Markers
 
@@ -40,8 +39,7 @@ For this project, you will build a survey form to collect data form your users.
 >
 > - HTML: [Link HTML SurveyForm](./05_Survey_Form/05_1_SurveyForm.html)
 > - CSS: [Link CSS SurveyForm](./05_Survey_Form/05_1_SurveyForm.css)
-
-
+>
 ## 06 Box Model
 
 Every HTML element is its own box – with its own spacing and a border. This is called the Box Model.
@@ -51,5 +49,18 @@ In this course, you'll use CSS and the Box Model to create your own Rothko-style
 > Fundamental freeCodeCamp: [Sources web](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-the-css-box-model-by-building-a-rothko-painting/step-45)
 > My Practice Box Model: [All File](./06_Box-model/)[All File](./06_Box-model/)
 >
-> - HTML: [Link HTML Box Model](./06_Box-model/06_Box-model.html)
-> - CSS: [Link CSS Box Model](./06_Box-model/06_Box-model.css)
+> - HTML: [Box-model.html](./06_Box-model/06_Box-model.html)
+> - CSS: [Box-model.css](./06_Box-model/06_Box-model.css)
+
+## 07 Flexbox by Building a Photo Gallery
+
+Flexbox helps you design your webpage so that it looks good on any screen size.
+
+In this course, you'll use Flexbox to build a responsive photo gallery webpage.
+
+> Fundamental freeCodeCamp: [Sources web](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-flexbox-by-building-a-photo-gallery/step-21)
+> My Practice Flexbox: [All file](./07_Flexbox/)
+>
+> - HTML: [Photo_Gallery.html](./07_Flexbox/Photo_Gallery.html)
+> - CSS: [Photo_Gallery.css](./07_Flexbox/Photo_Gallery.css)
+>
