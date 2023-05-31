@@ -63,4 +63,16 @@ In this course, you'll use Flexbox to build a responsive photo gallery webpage.
 >
 > - HTML: [Photo_Gallery.html](./07_Flexbox/Photo_Gallery.html)
 > - CSS: [Photo_Gallery.css](./07_Flexbox/Photo_Gallery.css)
+
+## 08 Learn Typography by Building a Nutrition Label
+
+Typography is the art of styling your to be easily readable and suit its purpose.
+
+In this course, you'll use typography to build a nutrition label webpage. You'll learn how to style text, adjust line height, and position your text using CSS.
+
+> Fundamental freeCodeCamp: [Source code](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-typography-by-building-a-nutrition-label/step-67)
+> My Practice Typography: [file](./08_Typography/)
+>
+> - HTML: [Nutrition_Label.html](./08_Typography/Nutrition_Label.html)
+> - CSS: [Nutrition_Label.css](./08_Typography/Nutrition_Label.css)
 >
