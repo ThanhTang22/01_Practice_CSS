@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-background: rgb(221, 255, 187);
+    --color-background-container: rgb(221, 255, 187);
+}
+
+body{
+    font-size: 1rem;
+    /* font-weight: 900; */
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+body::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-background);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    background-image: 
+        linear-gradient(
+            120deg,
+            rgba(254, 254, 254, 0.5),
+            rgba(255, 255, 255, 0.5)
+        )
+        ,url(/05_Survey_Form/img/survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+/* pattern */
+h1{
+    font-size: 2.64rem;
+    font-weight: 900;
+}
+p{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.divided{
+    border: 0.5px solid black;
+    background-color: black;
+}
+.larger{
+    height: 10px;
+}
+.medium{
+    height: 5px;
+}
+
+.bold{
+    font-weight: 800;
+}
+/* container */
+.container{
+    width: 350px;
+    border: 2px solid black;
+    padding: 0.2rem 0.5rem;
+    margin: 3rem auto;
+}
+
+/* calories-info */
+.calories-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.left-calories p.bold{
+    font-weight: 500;
+    font-size: 2.5rem;
+    
+    margin: -8px 0;
+}
+.text-small{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.calories-info span{
+    font-size: 2.5rem;
+    font-weight: 500;
+
+    margin: -8px 0;
+}
+
+/* daily-value */
+.right{
+    justify-content: flex-end;
+}
+.indent{
+    margin-left: 1rem;
+}
+
+.double{
+    margin-left: 2rem;
+}
+
+/* footer */
+.note{
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+
+}
