@@ -17,15 +17,15 @@
         <h1>HTML/CSS Quiz</h1>
         <nav>
             <ul>
-                <li><a id="#student-info">INFO</a></li>
-                <li><a id="#html">HTML</a></li>
-                <li><a id="#css">CSS</a></li>
+                <li><a href="#student-info">INFO</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
             </ul>
         </nav>
     </header>
     <form action="//http:freecodecamp.org" method="get">
         <section role="region" aria-labelledby="student-info">
-            <h2>Student Info</h2>
+            <h2 id="student-info">Student Info</h2>
             <div class="divided"></div>
             <div class="info">
                 <label for="txtName">Name:</label>
@@ -41,7 +41,7 @@
             </div>
         </section>
         <section role="region" aria-labelledby="html-questions">
-            <h2>HTML</h2>
+            <h2 id="html">HTML</h2>
             <div class="divided"></div>
             <div class="question-block">
                 <p>Question #1</p>
@@ -97,7 +97,7 @@
             </div>
         </section>
         <section role="region" aria-labelledby="css">
-            <h2>CSS</h2>
+            <h2 id="css">CSS</h2>
             <div class="divided"></div>
             <div class="formrow">
                 <label for="selDeveloper">
