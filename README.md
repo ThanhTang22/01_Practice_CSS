@@ -88,5 +88,3 @@ In this course, you'll build a quiz webpage. You'll learn accessibility tools su
 > - HTML: [Building_a_Quiz](./09_Accessibility/Building_a_Quiz.html)
 > - CSS: [Building_a_Quiz](./09_Accessibility/Building_a_Quiz.css)
 >
-
-
