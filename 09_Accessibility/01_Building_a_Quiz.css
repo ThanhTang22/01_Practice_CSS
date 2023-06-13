@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-header: #1b1b32;
+    --color-h1: #f1be32;
+}
+
+body{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+
+
+h1{
+    color: var(--color-h1);
+    font-size: min(1.2rem,20vw);
+}
+h2{
+    border-bottom: 2px solid gainsboro;
+}
+
+
+li>a:hover{
+    cursor: pointer;
+    color: #f1be32;
+}
+li>a:active{
+    color: blue;
+}
+li{
+    display: block;
+    margin-inline: 0.5rem;
+    color: #fefee5;
+}
+nav{
+    width: max(50%,300px);
+    height: 50%;
+}
+fieldset{
+    border: none;
+}
+
+.question-block{
+    /* border: 1px solid red; */
+    margin-inline: 1.5rem;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-header);
+
+    position: fixed;
+    top: 0;
+}
+img{
+    width: max(18vw,100px);
+    background: var(--color-header);
+}
+
+
+nav>ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    
+    height: 100%;
+    margin-block: 0;
+    padding-inline-start: 0;
+}
+
+nav>ul>li>a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+/* form */
+form{
+    padding-top: 5rem;
+}
+section{
+    /* border: 1px solid red; */
+    width: max(80%,600px);
+
+    margin: 0 auto 100px;
+}
+
+button[type="submit"]{
+    margin-inline: 6em;
+
+    width: 76%;
+    height: 2rem;
+    padding: 0.3rem ;
+
+}
+/* student-info */
+.info{
+    margin: 1rem 0 0.5rem 1.5rem;
+}
+.info label,
+.info input{
+    display: inline-block;
+}
+.info label{
+    width: 10%;
+    text-align: right;
+}
+.info input{
+    text-align: left;
+}
+
+.form-control{
+    width: 50%;
+    height: 1.5rem;
+    border-radius: 4px;
+    background-color: #fefefe;
+    background-clip: padding-box;
+    color: black;
+
+    padding: 0.3rem 0.7rem;
+
+}
+
+/* HTMl */
+.title-css{
+    font-size: 1.5rem;
+    margin: 1.5rem 1.5rem 0.5rem;
+}
+.answer-list{
+    margin-top: 1rem;
+}
+.answer-list label{
+    display: flex;
+    align-items: center;
+}
+.input-radio{
+    margin-right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+}
+
+/* CSS */
+select,
+textarea{
+    margin-left: 1.5rem;
+
+    width: 90%;
+    padding: 0.3rem ;
+}
+
+.question-block{
+    margin-block: 0.5rem;
+    /* border: 1px solid red; */
+}
+
+/* footer */
+footer{
+    background-color: var(--color-header);
+    margin-top: 1rem;
+    padding-block: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+address>ul>li>a{
+    color: #fefefe;
+    text-decoration: none;
+}

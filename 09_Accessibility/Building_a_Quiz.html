@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building a Quiz</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./Building_a_Quiz.css">
+</head>
+<body>
+    <header>
+        <a href="./Building_a_Quiz.html">
+            <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" 
+                alt="logo_image"
+                id="logo">
+        </a>
+        <h1>HTML/CSS Quiz</h1>
+        <nav>
+            <ul>
+                <li><a href="#student-info">INFO</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="//http:freecodecamp.org" method="get">
+        <section role="region" aria-labelledby="student-info">
+            <h2 id="student-info">Student Info</h2>
+            <div class="divided"></div>
+            <div class="info">
+                <label for="txtName">Name:</label>
+                <input type="text" class="form-control" id="txtName">
+            </div>
+            <div class="info">
+                <label for="txtEmail">Email:</label>
+                <input type="email" class="form-control" id="txtEmail">
+            </div>
+            <div class="info">
+                <label for="txtDOB">D.O.B:</label>
+                <input type="date" class="form-control" id="txtDOB">
+            </div>
+        </section>
+        <section role="region" aria-labelledby="html-questions">
+            <h2 id="html">HTML</h2>
+            <div class="divided"></div>
+            <div class="question-block">
+                <p>Question #1</p>
+                <fieldset class="question">
+                    <legend>
+                        The legend element repesents a caption for the content of its parent fieldset element
+                    </legend>
+                    <div class="answers-list">
+                        <label for="q1-a1">
+                            <input type="radio" 
+                                name="q1" 
+                                id="q1-a1" 
+                                value="true" 
+                                class="input-radio">
+                            True
+                        </label>
+                        <label for="q1-a2">
+                            <input type="radio" 
+                                name="q1" 
+                                id="q1-a2" 
+                                value="false" 
+                                class="input-radio">
+                            False
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="question-block">
+                <p>Question #2</p>
+                <fieldset>
+                    <legend>
+                        A label element nesting an input element is required to have a for attribute with the same value as the input's id
+                    </legend>
+                    <div class="answers-list">
+                        <label for="q2-a1">
+                            <input type="radio" 
+                                name="q2" 
+                                id="q2-a1"
+                                value="true" 
+                                class="input-radio">
+                            True
+                        </label>
+                        <label for="q2-a2">
+                            <input type="radio" 
+                                name="q2" 
+                                id="q2-a2"
+                                value="false" 
+                                class="input-radio">
+                            False
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+        </section>
+        <section role="region" aria-labelledby="css">
+            <h2 id="css">CSS</h2>
+            <div class="divided"></div>
+            <div class="formrow">
+                <label for="selDeveloper">
+                    Are you a frontend developer?
+                </label>
+                <select name="" id="selDeveloper" required>
+                    <option value selected disabled>Select an option</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <div class="formrow">
+                <label for="txtQuestions">
+                    Do you have any questions:
+                </label>
+                <textarea name="" 
+                    id="txtQuestions" 
+                    cols="30" 
+                    rows="3"
+                    placeholder="Who is flexbox..."></textarea>
+            </div>
+            <input type="button" value="Send">
+        </section>
+        
+    </form>
+    <footer>
+        <address>
+            <ul>
+                <li>
+                    <a href="//http:freeCodeCamp.org">freeCodeCamp</a>
+                </li>
+                <li>San Francisco</li>
+                <li>California</li>
+                <li>USA</li>
+            </ul>
+
+        </address>
+    </footer>
+</body>
+</html>
