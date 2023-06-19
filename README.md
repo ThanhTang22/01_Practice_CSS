@@ -29,7 +29,7 @@ This is one of the required projects to earn your certification.
 For this project, you will build a survey form to collect data form your users.
 
 > All My File Survey From: [Link My File](./05_Survey_Form/)
-> Fundamental freeCodeCamp: [Link freeCodeCamp tutorial](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)
+> Tutorial freeCodeCamp: [Link freeCodeCamp tutorial](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)
 >
 > - My Practice: [Link My Practice](./05_Survey_Form/05_Survey_Form.html)
 >
@@ -46,7 +46,8 @@ Every HTML element is its own box – with its own spacing and a border. This is
 
 In this course, you'll use CSS and the Box Model to create your own Rothko-style rectangular art pieces.
 
-> Fundamental freeCodeCamp: [Sources web](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-the-css-box-model-by-building-a-rothko-painting/step-45)
+> Tutorial freeCodeCamp: [Sources web](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-the-css-box-model-by-building-a-rothko-painting/step-45)
+>
 > My Practice Box Model: [All File](./06_Box-model/)[All File](./06_Box-model/)
 >
 > - HTML: [Box-model.html](./06_Box-model/06_Box-model.html)
@@ -58,7 +59,8 @@ Flexbox helps you design your webpage so that it looks good on any screen size.
 
 In this course, you'll use Flexbox to build a responsive photo gallery webpage.
 
-> Fundamental freeCodeCamp: [Sources web](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-flexbox-by-building-a-photo-gallery/step-21)
+> Tutorial freeCodeCamp: [Sources web](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-flexbox-by-building-a-photo-gallery/step-21)
+>
 > My Practice Flexbox: [All file](./07_Flexbox/)
 >
 > - HTML: [Photo_Gallery.html](./07_Flexbox/Photo_Gallery.html)
@@ -70,7 +72,8 @@ Typography is the art of styling your to be easily readable and suit its purpose
 
 In this course, you'll use typography to build a nutrition label webpage. You'll learn how to style text, adjust line height, and position your text using CSS.
 
-> Fundamental freeCodeCamp: [Source Code](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-typography-by-building-a-nutrition-label/step-67)
+> Tutorial freeCodeCamp: [Source Code](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-typography-by-building-a-nutrition-label/step-67)
+>
 > My Practice Typography: [file](./08_Typography/)
 >
 > - HTML: [Nutrition_Label.html](./08_Typography/Nutrition_Label.html)
@@ -82,9 +85,24 @@ Accessibility is making your webpage easy for all people to use – even people 
 
 In this course, you'll build a quiz webpage. You'll learn accessibility tools such as keyboard shortcuts, ARIA attributes, and design best practices.
 
-> Fundamental freeCodeCamp: [Source Code](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-accessibility-by-building-a-quiz/step-68)
+> Tutorial freeCodeCamp: [Source Code](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-accessibility-by-building-a-quiz/step-68)
+>
 > My practice Accessibity [file](./09_Accessibility/)
 >
 > - HTML: [Building_a_Quiz](./09_Accessibility/Building_a_Quiz.html)
 > - CSS: [Building_a_Quiz](./09_Accessibility/Building_a_Quiz.css)
+>
+
+## 10 Learn More About CSS Pseudo Selectors By Building A Balance Sheet
+
+You can use CSS pseudo selectors to change specific HTML elements.
+
+In this course, you'll build a balance sheet using pseudo selectors. You'll learn how to change the style of an element when you hover over it with your mouse, and trigger other events on your webpage.
+
+> Tutorial freeCodeCamp: [Source Code](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet/step-66)
+>
+> My practice Pseudo Selectors [file](./10_Pseudo_Selectors/)
+>
+> - HTML: [Building a Balance Sheet](./10_Pseudo_Selectors/Balance_Sheet.html)
+> - CSS: [Building a Balance Sheet](./10_Pseudo_Selectors/Balance_Sheet.css)
 >
