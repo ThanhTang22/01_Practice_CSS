@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+main{
+    max-width: 40rem;
+    border: 2px solid #d0d0d5;
+    margin: 1rem auto;
+}
+
+/* header */
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+
+    padding: 1rem;
+    margin: 0.5rem;
+    /* border: 1px solid red; */
+}
+.flex span:first-of-type{
+    font-size: 2rem;
+    font-weight: 800;
+    /* border: 1px solid red; */
+}
+.flex span:last-of-type{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Years */
+#years{
+    display: flex;
+    justify-content: flex-end;
+
+    position: sticky;
+    top: 0;
+
+    background: #0a0a23;
+    color: #fff;
+    padding: 0.5rem 1rem 0.5rem 0;
+    margin: 0px -2px;
+    
+    z-index: 1;
+}
+#years span[class]{
+    width: 4rem;
+    font-weight: bold;
+    text-align: right;
+    /* border: 1px solid red; */
+} 
+
+/* tabel */
+.table-wrap{
+    padding: 0 0.75rem 1.5rem;
+}
+table{
+    width: 100%;
+    margin-top: 3rem;
+    border: 0;
+    border-collapse: collapse;
+    
+    position: relative;
+    /* border: 1px solid red; */
+}
+caption{
+    color: #356eaf;
+    font-size: 1.3em;
+    font-weight: normal;
+
+    /* border: 1px solid red; */
+    position: absolute;
+    top: -2.25rem;
+    left: 0.5rem;
+}
+
+/* table body */
+tbody td{
+    width: 100vw;
+    min-width: 4rem;
+    max-width: 4rem;
+}
+tbody th{
+    width: 100%;
+}
+
+tr.data{
+    background-image: linear-gradient(
+        180deg,
+        #dfdfe2 1.845rem,
+        white 1.845rem
+    );
+}
+tr.data th{
+    text-align: left;
+    padding: 0.3rem 0.5rem;
+    /* border: 1px solid red; */
+}
+tr.data th .description{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: normal;
+    font-style: italic;
+    padding: 1rem 0 0.75rem;
+    /* margin-right: -13.5rem; */
+}
+tr.data td{
+    padding: 0.3rem 0.25rem 0;
+    vertical-align: top;
+    text-align: right;
+}
+/* table body total */
+tr[class="total"]{
+    border-bottom: 4px double #0a0a23;
+    font-weight: bold;
+}
+tr[class="total"] th{
+    text-align: left;
+    padding: 0.5rem 0 0.25rem 0.5rem;
+}
+tr[class="total"] td{
+    text-align: right;
+    padding: 0 0.25rem;
+}
+tr[class="total"] td:nth-of-type(3){
+    padding-right: 0.5rem;
+    /* border: 1px solid red; */
+}
+tr[class="total"]:hover{
+    background-color: #99c9ff;
+}
+
+/* sr-only */
+.sr-only{
+    /* border: 1px solid red; */
+    border: 0;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    clip-path: inset(50%) !important;
+    position: absolute !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+}
