@@ -107,7 +107,6 @@ In this course, you'll build a balance sheet using pseudo selectors. You'll lear
 > - CSS: [Building a Balance Sheet](./10_Pseudo_Selectors/Balance_Sheet.css)
 >
 
-
 ## 11 Learn Intermediate CSS by Building a Picasso Painting
 
 In this course, you'll learn how to use some intermediate CSS techniques by coding your own Picasso painting webpage. You'll learn about SVG icons, CSS positioning, and review other CSS skills you've learned.
