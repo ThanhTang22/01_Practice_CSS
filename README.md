@@ -119,3 +119,17 @@ In this course, you'll learn how to use some intermediate CSS techniques by codi
 > - HTML: [Building a Picasso Painting](./11_Intermediater/picasso_painting.html)
 > - CSS : [Building a Picasso Painting](./11_Intermediater/picasso_painting.css)
 >
+
+## 12 Learn Reponsive Web Design by Building a Piano
+
+Responsive Design tells your webpage how it should look on different-sized screens.
+
+In this course, you'll use CSS and Responsive Design to code a piano. You'll also learn more about media queries and pseudo selectors.
+
+> Tutorial freeCodeCamp: [Source Code](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-responsive-web-design-by-building-a-piano/step-33)
+>
+> My practice Buidling A Piano [file](./12_Reponsive/)
+>
+> - HTML: [Building a Piano](./12_Reponsive/piano.html)
+> - CSS : [Bulding a Piano](./12_Reponsive/piano.css)
+>
