@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-background: #f3f3f3;
+    --color-font: #4d4e53;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+
+    min-width: 300px;
+}
+
+/* nav */
+#navbar{
+    background-color: var(--color-background);
+    width: 300px;
+    min-width: 290px;
+    height: 100%;
+    border-right: 1px solid var(--color-font);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#navbar header{
+    margin: 20px 15px 10px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#navbar ul{
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.nav-link{
+    border-top: 1px solid var(--color-font);
+    list-style: none;
+
+    position: relative;
+    width: 100%;
+}
+.nav-link a{
+    display: block;
+    width: 100%;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: var(--color-font);
+
+    cursor: pointer;
+}
+
+/* main */
+#nav-doc{
+    position: absolute;
+    margin-left: 320px;
+
+}
+.main-section{
+    margin: 20px 10px;
+    padding: 10px;
+}
+.main-section header{
+    font-size: 1.8em;
+    text-align: left;
+}
+.main-section article{
+    margin: 10px 20px;
+    color: var(--color-font);
+    font-size: 0.9em;
+}
+.main-section p{
+    margin-block: 10px;
+}
+.main-section li{
+    margin:10px 0 10px 50px;
+
+}
+
+code{
+    display: block;
+    background-color: var(--color-background);
+    border-radius: 5px;
+
+    margin: 10px;
+    padding: 15px;
+
+    line-height: 2;
+    word-wrap: normal;
+    word-break: normal;
+    white-space: pre-line;
+
+    position: relative;
+}
+
+
+/* media */
+@media only screen and (max-width:800px) {
+    /* for mobile phone */
+    #navbar{
+        width: 100%;
+        max-height: 275px;
+        background-color: var(--color-background);
+
+        border: none;
+        border-bottom: 1px solid var(--color-font);
+
+        position: absolute;
+    }
+    #navbar ul{
+        border: 1px solid var(--color-font);
+        height: 200px;
+    }
+    #nav-doc{
+        position: relative;
+        margin-top: 270px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:400px){
+    #main-doc{
+        margin-left: -10px;
+    }
+    code{
+        width: 100%;
+        min-width: 233px;
+        margin-left: -20px;
+        padding: 15px 10px 15px 45px;
+    }
+}

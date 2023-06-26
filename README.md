@@ -106,7 +106,7 @@ In this course, you'll build a balance sheet using pseudo selectors. You'll lear
 > - HTML: [Building a Balance Sheet](./10_Pseudo_Selectors/Balance_Sheet.html)
 > - CSS: [Building a Balance Sheet](./10_Pseudo_Selectors/Balance_Sheet.css)
 >
-
+****
 ## 11 Learn Intermediate CSS by Building a Picasso Painting
 
 In this course, you'll learn how to use some intermediate CSS techniques by coding your own Picasso painting webpage. You'll learn about SVG icons, CSS positioning, and review other CSS skills you've learned.
@@ -127,8 +127,23 @@ In this course, you'll use CSS and Responsive Design to code a piano. You'll als
 
 > Tutorial freeCodeCamp: [Source Code](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-responsive-web-design-by-building-a-piano/step-33)
 >
-> My practice Buidling A Piano [file](./12_Reponsive/)
+> My practice Buidling A Piano: [file](./12_Reponsive/)
 >
 > - HTML: [Building a Piano](./12_Reponsive/piano.html)
 > - CSS : [Bulding a Piano](./12_Reponsive/piano.css)
 >
+
+## 13 Technical Documentation Page
+
+This is one of the required projects to earn your certification.
+
+For this project, you will build a technical documentation page to serve as instruction or reference for topic
+
+> Tutorial: [Source Code](https://technical-documentation-page.freecodecamp.rocks/)
+>
+> My practice: [file](./13_Document_Page/)
+>
+> - HTML:
+> - CSS :
+>
+
