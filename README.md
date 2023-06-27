@@ -143,7 +143,20 @@ For this project, you will build a technical documentation page to serve as inst
 >
 > My practice: [file](./13_Document_Page/)
 >
-> - HTML:
-> - CSS :
+> - HTML: [Documentation](./13_Document_Page/02_documentation.html)
+> - CSS : [Documentation](./13_Document_Page/02_documentation.css)
 >
 
+## 14 Learn CSS Variables by Building a City Skyline
+
+CSS variables help you organize your styles and reuse them.
+
+In this course, you'll build a city skyline. You'll learn how to configure CSS variables so you can reuse them whenever you want.
+
+> Tutorial: [Source Code](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-variables-by-building-a-city-skyline/step-118)
+>
+> My practice: [file](./14_Variables/)
+>
+> - HTML: [City SkyLine](./14_Variables/)
+> - CSS : [City SkyLine](./14_Variables/)
+>
