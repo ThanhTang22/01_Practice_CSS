@@ -106,7 +106,7 @@ In this course, you'll build a balance sheet using pseudo selectors. You'll lear
 > - HTML: [Building a Balance Sheet](./10_Pseudo_Selectors/Balance_Sheet.html)
 > - CSS: [Building a Balance Sheet](./10_Pseudo_Selectors/Balance_Sheet.css)
 >
-****
+
 ## 11 Learn Intermediate CSS by Building a Picasso Painting
 
 In this course, you'll learn how to use some intermediate CSS techniques by coding your own Picasso painting webpage. You'll learn about SVG icons, CSS positioning, and review other CSS skills you've learned.
@@ -159,4 +159,18 @@ In this course, you'll build a city skyline. You'll learn how to configure CSS v
 >
 > - HTML: [City SkyLine](./14_Variables/)
 > - CSS : [City SkyLine](./14_Variables/)
+>
+
+## 15 Learn CSS Grid by Building a Magazine
+
+CSS Grid gives you control over the rows and columns of your webpage design.
+
+In this course, you'll build a magazine article. You'll learn how to use CSS Grid, including concepts like grid rows and grid columns.
+
+> Tutorial: [Source Code](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-grid-by-building-a-magazine/step-80)
+>
+> My practice: [file](./15_Grid/)
+>
+> - HTML: [Magazine](./15_Grid/grid.html)
+> - CSS: [Magazine](./15_Grid/grid.css)
 >
