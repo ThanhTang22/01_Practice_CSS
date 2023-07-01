@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+span{
+    visibility: hidden;
+    background-color: #006100;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+th,
+td{
+    padding: 10px;
+}
+
+.table{
+    display: table;
+}
+.row{
+    display: table-row;
+}
+.cell{
+    display: table-cell;
+}
+.row, .cell{
+    padding: 10px;
+}
+
+
+/* flex */
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+.child{
+    border: 1px solid orangered;
+    margin: 4px;
+} */
+
+/* grid */
+.container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    height: 100vh;
+}
+.child{
+    border: 1px solid orangered;
+    margin: 4px;
+}

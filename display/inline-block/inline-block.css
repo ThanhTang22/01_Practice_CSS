@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    font-size: 2rem;
+    margin-inline: 3rem;
+}
+
+span{
+    display: inline-block;
+    width: 200px;
+    background-color: orangered;
+}
