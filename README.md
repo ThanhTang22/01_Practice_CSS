@@ -174,3 +174,16 @@ In this course, you'll build a magazine article. You'll learn how to use CSS Gri
 > - HTML: [Magazine](./15_Grid/grid.html)
 > - CSS: [Magazine](./15_Grid/grid.css)
 >
+
+## 16 Product Lading Page
+
+This is one of the required projects to earn your certification.
+For this project, you will build a product lading page to market a product of your choice.
+
+> Tutorial [Source Code](https://product-landing-page.freecodecamp.rocks/)
+>
+> My practice [file](./16_Product_Landing_Page/)
+>
+> - HTML: [Product Landing Page]()****
+> - CSS: [Product Landing Page]()
+>
