@@ -174,3 +174,28 @@ In this course, you'll build a magazine article. You'll learn how to use CSS Gri
 > - HTML: [Magazine](./15_Grid/grid.html)
 > - CSS: [Magazine](./15_Grid/grid.css)
 >
+
+## 16 Product Lading Page
+
+This is one of the required projects to earn your certification.
+For this project, you will build a product lading page to market a product of your choice.
+
+> Tutorial [Source Code](https://product-landing-page.freecodecamp.rocks/)
+>
+> My practice [file](./16_Product_Landing_Page/)
+>
+> - HTML: [Product Landing Page](./16_Product_Landing_Page/)
+> - CSS: [Product Landing Page](./16_Product_Landing_Page/)
+>
+
+## 17 CSS Animation by Building Ferris Wheel
+
+You can use CSS animation to draw attention to specific sections of your webpage and make it more engaging.
+
+In this course, you'll build a Ferris wheel. You'll learn how to use CSS to animate elements, transform them, and adjust their speed
+
+> My practice [file](./17_Animation/)
+>
+> - HTML : [Ferris Wheel](./17_Animation/)
+> - CSS : [Ferris Wheel](./17_Animation/)
+>
