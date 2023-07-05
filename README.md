@@ -188,6 +188,7 @@ For this project, you will build a product lading page to market a product of yo
 > - CSS: [Product Landing Page](./16_Product_Landing_Page/)
 >
 
+<<<<<<< HEAD
 ## 17 CSS Transforms by Building a Penguin
 
 You can transform HTML elements to create appealing designs that draw your reader's eye. You can use transforms to rotate elements, scale them, and more.
@@ -199,3 +200,16 @@ In this course, you'll build a penguin. You'll use CSS transforms to position an
 > My practice [file](./17_Transforms/)
 >
 ****
+=======
+## 17 CSS Animation by Building Ferris Wheel
+
+You can use CSS animation to draw attention to specific sections of your webpage and make it more engaging.
+
+In this course, you'll build a Ferris wheel. You'll learn how to use CSS to animate elements, transform them, and adjust their speed
+
+> My practice [file](./17_Animation/)
+>
+> - HTML : [Ferris Wheel](./17_Animation/)
+> - CSS : [Ferris Wheel](./17_Animation/)
+>
+>>>>>>> main
