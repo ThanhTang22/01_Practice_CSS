@@ -157,8 +157,8 @@ In this course, you'll build a city skyline. You'll learn how to configure CSS v
 >
 > My practice: [file](./14_Variables/)
 >
-> - HTML: [City SkyLine](./14_Variables/)
-> - CSS : [City SkyLine](./14_Variables/)
+> - HTML: [City SkyLine](./14_Variables/01_City_Skyline.html)
+> - CSS : [City SkyLine](./14_Variables/01_City_Skyline.css)
 >
 
 ## 15 Learn CSS Grid by Building a Magazine
@@ -171,8 +171,8 @@ In this course, you'll build a magazine article. You'll learn how to use CSS Gri
 >
 > My practice: [file](./15_Grid/)
 >
-> - HTML: [Magazine](./15_Grid/grid.html)
-> - CSS: [Magazine](./15_Grid/grid.css)
+> - HTML: [Magazine](./15_Grid/02_magazine.html)
+> - CSS: [Magazine](./15_Grid/02_magazine.css)
 >
 
 ## 16 Product Lading Page
@@ -184,11 +184,10 @@ For this project, you will build a product lading page to market a product of yo
 >
 > My practice [file](./16_Product_Landing_Page/)
 >
-> - HTML: [Product Landing Page](./16_Product_Landing_Page/)
-> - CSS: [Product Landing Page](./16_Product_Landing_Page/)
+> - HTML: [Product Landing Page](./16_Product_Landing_Page/02_product_fullMobile.html)
+> - CSS: [Product Landing Page](./16_Product_Landing_Page/02_product_fullMobile.css)
 >
 
-<<<<<<< HEAD
 ## 17 CSS Transforms by Building a Penguin
 
 You can transform HTML elements to create appealing designs that draw your reader's eye. You can use transforms to rotate elements, scale them, and more.
@@ -199,8 +198,10 @@ In this course, you'll build a penguin. You'll use CSS transforms to position an
 >
 > My practice [file](./17_Transforms/)
 >
-****
-=======
+> - HTML : [Penguin](./17_Transforms%20copy/01_penguin.html)
+> - CSS : [Penguin](./17_Transforms%20copy/01_penguin.css)
+>
+
 ## 17 CSS Animation by Building Ferris Wheel
 
 You can use CSS animation to draw attention to specific sections of your webpage and make it more engaging.
@@ -209,7 +210,18 @@ In this course, you'll build a Ferris wheel. You'll learn how to use CSS to anim
 
 > My practice [file](./17_Animation/)
 >
-> - HTML : [Ferris Wheel](./17_Animation/)
-> - CSS : [Ferris Wheel](./17_Animation/)
+> - HTML : [Ferris Wheel](./17_Animation/Ferris_wheel.html)
+> - CSS : [Ferris Wheel](./17_Animation/Ferris_wheel.css)
 >
->>>>>>> main
+
+## 19 Personal Protfolio Webpage
+
+This is one of the required projects to earn your certification.
+
+For this project, you will build your own personal portfolio page.
+
+> Tutorital [Source Code](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/build-a-personal-portfolio-webpage)
+> My practice: [file](./19_Portfolio_webpage/)
+>
+> - HTML : [portfolio](./19_Portfolio_webpage/)
+> - CSS : [portfolio](./19_Portfolio_webpage/)
