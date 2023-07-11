@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./01_product_landing_page.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" r
+        eferrerpolicy="no-referrer" 
+    />
+    <!-- font lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="paper-wrapper">
+        <header>
+            <div class="logo">
+                <img src="	https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" 
+                alt="logo" 
+                id="header-img">
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#features" class="nav-list">Features</a>
+                    </li>
+                    <li>
+                        <a href="#how-it-works" class="nav-list">How It Works</a>
+                    </li>
+                    <li>
+                        <a href="#pricing" class="nav-list">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section class="hero">
+            <h2>Handcrafted, home-made masterpieces</h2>
+            <form action="" method="get" id="form-hero">
+                <input type="email" 
+                    name="emailAddress" 
+                    id="txtemail"
+                    placeholder="Enter your email address">
+                <button type="submit">GET STARTED</button>
+            </form>
+        </section>
+        <div class="container">
+            <section class="features">
+                <div class="row">
+                    <div class="icons">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                    </div>
+                    <div class="sub">
+                        <h2>Premium Materials</h2>
+                        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="icons">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <div class="sub">
+                        <h2>Fast Shipping</h2>
+                        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="icons">
+                        <i class="fa-solid fa-battery-full"></i>
+                    </div>
+                    <div class="sub">
+                        <h2>Quality Assurance</h2>
+                        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="how-it-works">
+                <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+            </section>
+            <section class="pricing">
+                <div class="product" id="tenor">
+                    <div class="level">TENOR TROMBONE</div>
+                    <h2>$600</h2>
+                    <div class="product-list">
+                        <ul>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem, ipsum.</li>
+                        </ul>
+                    </div>
+                    <button class="btn-product">SELECT</button>
+                </div>
+                <div class="product" id="bass">
+                    <div class="level">BASS TROMBONE</div>
+                    <h2>$900</h2>
+                    <div class="product-list">
+                        <ul>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem, ipsum.</li>
+                        </ul>
+                    </div>
+                    <button class="btn-product">SELECT</button>
+                </div>
+                <div class="product" id="valve">
+                    <div class="level">VALVE TROMBONE</div>
+                    <h2>$1200</h2>
+                    <div class="product-list">
+                        <ul>
+                            <li>Play similar to a Trumpet</li>
+                            <li>Great for Jazz Bands</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem, ipsum.</li>
+                        </ul>
+                    </div>
+                    <button class="btn-product">SELECT</button>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="nav-bar-footer">
+                <ul>
+                    <li><a href="#privacy">Privacy</a></li>
+                    <li><a href="#terms">Terms</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <span>Copyright 2016, Original Trombones</span>
+        </footer>
+    </div>
+</body>
+</html>

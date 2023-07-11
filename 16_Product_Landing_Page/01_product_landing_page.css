@@ -1,0 +1,253 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style-type: none;
+}
+
+
+#paper-wrapper{
+    /* width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; */
+    position: relative;
+}
+
+/* header */
+header{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* max-width: 1000px; */
+    height: 75px;
+    background-color: #eee;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    position: fixed;
+    top: 0;
+}
+@media (max-width:700px) {
+    header{
+        flex-wrap: wrap;
+    }
+}
+
+.logo{
+    width: 60vw;
+    /* border: 1px solid red; */
+}
+@media (max-width:700px) {
+    .logo{
+        margin-top: 15px;
+        width: 100%;
+        position: relative;
+    }
+}
+#header-img{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    
+    margin-left: 20px;
+}
+@media (max-width:700px) {
+    #header-img{
+        margin: 0 auto;
+    }
+}
+.nav-bar{
+    /* border: 1px solid blue; */
+    width: 40%;
+    font-weight: 500;
+}
+
+.nav-bar>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+
+/* hero */
+.hero{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 200px;
+    text-align: center;
+    margin-top: 50px;
+}
+.hero>h2{
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+/* #form-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+#form-hero>input[type=email]{
+    margin-bottom: 20px;
+
+    width: 100%;
+    max-width: 300px;
+    padding: 0.3rem 0.7rem;
+}
+#form-hero>button{
+    width: 100%;
+    max-width: 150px;
+    height: 30px;
+    background-color: #f1c40f;
+    border: none;
+
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+/* container */
+.container{
+    width: 100%;
+    /* height: 100vh; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    
+    padding: 3rem 0 0 5rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /* border: 1px solid red; */
+    height: 75px;
+
+    margin-bottom: 4rem;
+}
+.row .icons{
+    /* border: 1px solid blue; */
+    width: 14%;
+
+}
+.row .sub{
+    /* border: 1px solid blue; */
+    width: 86%;
+}
+
+.icons>i{
+    font-size: 50px;
+    color: orange;
+}
+/* features */
+
+
+/* how-it-works */
+.how-it-works{
+    display: flex;
+    justify-content: center;
+}
+.how-it-works>iframe{
+    width: 100%;
+    max-width: 600px;
+
+}
+
+/* pricing */
+.pricing{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product{
+    border: 1px solid #000;
+    width: 30%;
+    /* max-width: 300px; */
+    min-width: 220px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.level{
+    text-align: center;
+    font-weight: 600;
+    height: 40px;
+    width: 100%;
+    background-color: linen;
+    padding-top: 10px;
+}
+.product-list>ul>li{
+    padding-bottom: 3px;
+    text-align: center;
+}
+.btn-product{
+    width: 90px;
+    height: 30px;
+    background-color: #f1c40f;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+
+/* footer */
+footer{
+    background-color: linen;
+    width: 100%;
+    height: 75px;
+    padding-right: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
+    /* border: 1px solid red; */
+}
+
+.nav-bar-footer{
+    width: 25%;
+    max-width: 200px;
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+}
+.nav-bar-footer>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
