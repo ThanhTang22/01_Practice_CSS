@@ -223,5 +223,6 @@ For this project, you will build your own personal portfolio page.
 > Tutorital [Source Code](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/build-a-personal-portfolio-webpage)
 > My practice: [file](./19_Portfolio_webpage/)
 >
-> - HTML : [portfolio](./19_Portfolio_webpage/)
-> - CSS : [portfolio](./19_Portfolio_webpage/)
+> - HTML : [portfolio](./19_Portfolio_webpage/01_portfolio.html)
+> - CSS : [portfolio](./19_Portfolio_webpage/01_portfolio.css)
+>
